@@ -1,13 +1,13 @@
-# Building
+## Building
 
 Prerequisites: You will need `libusb-1.0` and [CMake](http://www.cmake.org/) installed.
 You will also need [QT 5.7](https://www.qt.io/download-open-source/) or newer.
 This project runs on only on Ubuntu 16.04
 
-# Installing libusb
+## Installing libusb
     sudo apt-get install libusb-1.0-0-dev
 
-# Installing CMake
+## Installing CMake
     Please follow the instructions at -> https://cmake.org/install/
 
 
