@@ -50,6 +50,10 @@ Item {
                 id: labelPtFirwmareVers
                 text: qsTr("PT1 FW Version: ") + acq.cci.ptFirmwareVersion
             }
+            Label {
+                id: labelAuthor
+                text: qsTr("Author: Pratheek B.")
+            }
         }
 
 

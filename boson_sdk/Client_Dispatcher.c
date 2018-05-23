@@ -1,20 +1,3 @@
-//  /////////////////////////////////////////////////////
-//  // DO NOT EDIT.  This is a machine generated file. //
-//  /////////////////////////////////////////////////////
-/******************************************************************************/
-/*                                                                            */
-/*  Copyright (C) 2015, FLIR Systems                                          */
-/*  All rights reserved.                                                      */
-/*                                                                            */
-/*  This document is controlled to FLIR Technology Level 2. The information   */
-/*  contained in this document pertains to a dual use product controlled for  */
-/*  export by the Export Administration Regulations (EAR). Diversion contrary */
-/*  to US law is prohibited. US Department of Commerce authorization is not   */
-/*  required prior to export or transfer to foreign persons or parties unless */
-/*  otherwise prohibited.                                                     */
-/*                                                                            */
-/******************************************************************************/
-
 #include "Client_Dispatcher.h"
 
 FLR_RESULT CLIENT_dispatcher(uint32_t seqNum, FLR_FUNCTION fnID, const uint8_t *sendData, const uint32_t sendBytes, const uint8_t *receiveData, uint32_t *receiveBytes) {

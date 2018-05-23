@@ -1,22 +1,3 @@
-//  /////////////////////////////////////////////////////
-//  // DO NOT EDIT.  This is a machine generated file. //
-//  /////////////////////////////////////////////////////
-
-/******************************************************************************/
-/*                                                                            */
-/*  Copyright (C) 2015, FLIR Systems                                          */
-/*  All rights reserved.                                                      */
-/*                                                                            */
-/*  This document is controlled to FLIR Technology Level 2. The information   */
-/*  contained in this document pertains to a dual use product controlled for  */
-/*  export by the Export Administration Regulations (EAR). Diversion contrary */
-/*  to US law is prohibited. US Department of Commerce authorization is not   */
-/*  required prior to export or transfer to foreign persons or parties unless */
-/*  otherwise prohibited.                                                     */
-/*                                                                            */
-/******************************************************************************/
-
-
 #ifndef ENUM_TYPES_H
 #define ENUM_TYPES_H
 

@@ -1,12 +1,3 @@
-# -------------------------------------------------
-# QGroundControl - Micro Air Vehicle Groundstation
-# Please see our website at <http://qgroundcontrol.org>
-# Maintainer:
-# Lorenz Meier <lm@inf.ethz.ch>
-# (c) 2009-2011 QGroundControl Developers
-# License terms set in COPYING.md
-# -------------------------------------------------
-
 QMAKE_POST_LINK += echo "Copying files"
 
 #

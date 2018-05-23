@@ -1,21 +1,3 @@
-# -------------------------------------------------
-# QGroundControl - Micro Air Vehicle Groundstation
-# Please see our website at <http://qgroundcontrol.org>
-# Maintainer:
-# Lorenz Meier <lm@inf.ethz.ch>
-# (c) 2009-2014 QGroundControl Developers
-# License terms set in COPYING.md
-# -------------------------------------------------
-
-#
-# This file contains configuration settings which are common to both the QGC Application and
-# the Location Plugin. It should mainly contains initial CONFIG tag setup and compiler settings.
-#
-
-# Setup our supported build types. We do this once here and then use the defined config scopes
-# to allow us to easily modify suported build types in one place instead of duplicated throughout
-# the project file.
-
 linux {
     linux-g++ | linux-g++-64 | linux-g++-32 | linux-clang {
         message("Linux build")
