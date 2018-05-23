@@ -1,21 +1,3 @@
-`GetThermal` is a cross-platform thermal camera viewer application.
-
-![GetThermal screenshot](https://groupgets-files.s3.amazonaws.com/lepton/getthermal_app.png)
-
-# Supported Platforms
-
-Binaries are available for desktop Linux (x64) and Mac OS platforms; see the Releases tab on GitHub. The Wiki tab has 
-instructions for building on Raspbian. Success has also been reported on NVIDIA Linux for Tegra. Ultimately, any
-platform that runs QT 5.7+ and libusb should function with some effort.
-
-# Supported Cameras
-
-GetThermal supports all FLIR Lepton variants used with the USB
-[PureThermal 1 Smart I/O Module](https://groupgets.com/manufacturers/getlab/products/purethermal-1-flir-lepton-smart-i-o-module),
-including the Radiometric Lepton 2.5
-
-Preliminary support for FLIR Boson has been added and is under development.
-
 # Building
 
 Prerequisites: You will need `libusb-1.0` and [CMake](http://www.cmake.org/) installed. You will
@@ -27,7 +9,7 @@ you have `libuvc` on your system already, you will have to build the fork.
 
 ## Get the source code
 
-    git clone https://github.com/groupgets/GetThermal
+    git clone https://github.com/prat96/Tonbo-GetThermalfeed.git
     cd GetThermal
 
 ## Get libuvc and build
@@ -51,6 +33,3 @@ and hit run. You can also build from the command line:
     qmake # or depending on your installation, maybe ~/Qt/5.7/clang_64/bin/qmake 
     make
 
-# Releases
-
-This is a work in progress. See the Releases tab in github for OS X and Linux pre-release builds.
